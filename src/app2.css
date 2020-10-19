@@ -1,0 +1,18 @@
+#tab-bar {
+  display: flex;
+  height: 24px;
+  border-bottom: 2px solid gray;
+}
+#tab-bar > li {
+  width: 50%;
+}
+#tab-bar > li.selected {
+  background-color: black;
+  color: blanchedalmond;
+}
+#tab-content > li {
+  display: none;
+}
+#tab-content > li.active {
+  display: block;
+}
