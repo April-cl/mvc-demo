@@ -1,0 +1,26 @@
+#app4 {
+  padding: 20px;
+}
+#app4 .circle {
+  width: 20vw;
+  height: 20vw;
+  background-color: green;
+  border-radius: 50%;
+}
+#app4 .change {
+  animation: change 2s infinite alternate linear;
+}
+@keyframes change {
+  0% {
+    background-color: olive;
+  }
+  33% {
+    background-color: olivedrab;
+  }
+  66% {
+    background-color: orange;
+  }
+  100% {
+    background-color: orangered;
+  }
+}
