@@ -14,6 +14,5 @@ $tabBar.on('click', 'li', (e) => {
     $tabContent.children().eq(index).addClass('active').siblings().removeClass('active')
 })
 
-console.log(index)
 $tabBar.children().eq(index).trigger('click')
 
